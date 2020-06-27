@@ -21,7 +21,8 @@ more languages are being continuosly added
 
 example:-
 ```python
-from INLD.INLD import detect
-detect('ye ek example hai')
-['hng']
+In [1]: from INLD.INLD import detect
+
+In [2]: detect('ye ek example hai')
+Out[1]: ['hng']
 ```

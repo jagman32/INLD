@@ -1,0 +1,6 @@
+include iNLD/lang_detect.model
+include iNLD/vectorizer.pkl
+inlcude LICENSE
+include README.md
+recursive-include package/static *
+recursive-include package/templates *

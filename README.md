@@ -19,4 +19,9 @@ Before using this library please also install latest version of pickle.
 
 more languages are being continuosly added
 
-
+example:-
+```python
+from INLD.INLD import detect
+detect('ye ek example hai')
+['hng']
+```

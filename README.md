@@ -1,6 +1,6 @@
-#this is INLD(indian natural language detection) package
+#this is INLD(Indian natural language detection) package
 
-you can use this package to detect language of following Indian Languages:
+you can use this package to detect following Indian Languages:
 1. Hindi	-hn
 2. English  -en
 3. Bengali  -bg

@@ -1,27 +1,42 @@
-#this is INLD(Indian natural language detection) package
+# Indian Natural Language Detection (INLD)
+Python package to detect Indian Languages from given text input. Works for direct language text input as well as certain combinations of those languages.
 
-you can use this package to detect following Indian Languages:
-1. Hindi	-hn
-2. English  -en
-3. Bengali  -bg
-4. Telugu   -tg
-5. Malayalam -ml
-6. Odia		 -od
-7. Punjabi	 -pb
-8. Punglish	 -png
-9. Hinglish	 -hng
-10. Marathi  -mr
-11. Gujarati -gj
-12. Kannada  -kd
-13. Assamese -am
+## Languages
+You can use this package to detect the following Indian Languages  
+***WIP :** (more languages are being continuously added)*
 
-Before using this library please also install latest version of pickle.
+1. Direct Languages  
+  
+    | Language | Code |
+    |:-:|:-:|
+    | Assamese | am |
+    |Bengali|bg|
+    |English|en|
+    |Gujarati|gj|
+    |Hindi|hn|
+    |Kannada|kd|
+    |Malayalam|ml|
+    |Marathi|mr|
+    |Odia|od|
+    |Punjabi|pb|
+    |Telugu|tg|
 
-more languages are being continuosly added
+2. Combined Languages
+    
+    | Language | Code |
+    |:-:|:-:|
+    | Hinglish (Hindi + English) | hng |
+    | Punglish (Punjabi + English)| png |
 
-example:-
+## Usage
+**Before using this library please also install latest version of** `pickle`  
+
 ```python
 from INLD.INLD import detect
+
 print(detect('ye ek example hai'))
-['hng']
+# OUTPUT : ['hng']
+
+print(detect('This is an example'))
+# OUTPUT : ['en']
 ```
